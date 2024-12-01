@@ -1,7 +1,6 @@
-// Mostrar un saludo en consola
-console.log("Bienvenido a mi perfil profesional");
+// script.js
 
-// Función de saludo cuando se carga la página
-window.onload = function() {
-    alert("Bienvenido a mi perfil profesional. ¡Gracias por visitarlo!");
-}
+document.addEventListener('DOMContentLoaded', function() {
+    console.log("Página cargada correctamente");
+});
+
