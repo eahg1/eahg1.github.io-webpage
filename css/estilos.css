@@ -1,30 +1,28 @@
-/* estilos.css */
-
-/* Reinicio de márgenes y rellenos */
+/* Reset de márgenes y rellenos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body usando Flexbox para estructurar */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-    min-height: 100vh; /* Asegura que el body ocupe al menos toda la altura de la ventana */
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Coloca los elementos uno debajo del otro */
+    min-height: 100vh; /* Asegura que el body tenga al menos la altura de la ventana */
 }
 
-/* Contenedor principal */
+/* Contenedor principal con un espacio flexible */
 .container {
-    width: 80%;
-    margin: 0 auto;
+    flex: 1; /* Permite que el contenido principal ocupe todo el espacio disponible */
     padding: 20px;
-    flex: 1; /* Permite que el contenedor principal crezca y ocupe el espacio disponible */
 }
 
+/* Estilos del encabezado */
 header {
     background-color: #333;
     color: white;
@@ -41,6 +39,7 @@ header p {
     margin-top: 10px;
 }
 
+/* Estilos de las secciones */
 section {
     margin: 20px 0;
 }
@@ -67,10 +66,14 @@ a {
     text-decoration: none;
 }
 
-/* Estilo del pie de página */
+/* Estilo para el pie de página */
 footer {
-    text-align: center;
     background-color: #333;
     color: white;
+    text-align: center;
     padding: 10px 0;
-    margin-top: auto; /* Esto empuja el footer 
+}
+
+footer p {
+    font-size: 0.9em;
+}
