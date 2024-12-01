@@ -1,1 +1,39 @@
+/* General */
+body {
+    font-family: Arial, sans-serif; /* Define la fuente de todo el sitio */
+    background-color: #f4f4f9;     /* Color de fondo */
+    color: #333;                   /* Color del texto */
+    margin: 0;                     /* Elimina márgenes */
+    padding: 0;                    /* Elimina relleno */
+    text-align: center;            /* Centra todo el texto */
+}
+
+/* Encabezado */
+h1 {
+    color: #007BFF;                /* Color azul */
+    font-size: 2.5em;              /* Tamaño grande */
+    margin-top: 20px;
+}
+
+/* Párrafo */
+p {
+    font-size: 1.2em;
+    line-height: 1.6;              /* Espaciado entre líneas */
+    margin: 10px 0;
+}
+
+/* Botón */
+button {
+    background-color: #007BFF;     /* Fondo azul */
+    color: white;                  /* Texto blanco */
+    border: none;                  /* Sin borde */
+    padding: 10px 20px;            /* Espaciado interno */
+    font-size: 1em;
+    cursor: pointer;               /* Cambia el cursor al pasar el mouse */
+    border-radius: 5px;            /* Bordes redondeados */
+}
+
+button:hover {
+    background-color: #0056b3;     /* Color más oscuro al pasar el mouse */
+}
 
