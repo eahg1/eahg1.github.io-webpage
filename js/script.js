@@ -1,10 +1,7 @@
-// Función que muestra un mensaje cuando se hace clic en el botón
-function mostrarMensaje() {
-    alert("¡Hola! Este es un mensaje de prueba.");
-}
+// Mostrar un saludo en consola
+console.log("Bienvenido a mi perfil profesional");
 
-// Función para cambiar el color de fondo
-function cambiarFondo() {
-    document.body.style.backgroundColor = "#FFD700"; // Cambia el fondo a dorado
+// Función de saludo cuando se carga la página
+window.onload = function() {
+    alert("Bienvenido a mi perfil profesional. ¡Gracias por visitarlo!");
 }
-
